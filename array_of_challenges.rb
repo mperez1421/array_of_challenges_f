@@ -1,10 +1,17 @@
 #Line up Alphabetically 
 	#Sort all the names in this array alphabetically
-	star_students = [ "Kelly", "Henry", "Theo", "Jennifer", "Michelle"]
+	star_students = [ "Henry", "Theo", "Jennifer", "Michelle"]
+	star_students.sort! 
+	print star_students 
 
-puts star_students[2]
+
+
 	#create a new array that has 19 elements of only your name as a string
 		#(hint: There is a way do this with only typing the string once)
+
+	star_students.concat(["Vedant", "Lena", "Zara", "Jessica"])
+	
+
 
 
 	#That first array, star_students and this array, brilliant_students, should be one big array!
